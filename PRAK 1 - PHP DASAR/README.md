@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="Screenshot 2025-09-26 104342" src="https://github.com/user-attachments/assets/f0ed8259-b5cf-423b-8aa0-c3d244986542" /># Praktikum 1: Aplikasi PHP Dasar - Form Pendaftaran Event
-
 Aplikasi ini dibuat untuk memenuhi tugas praktikum dasar PHP. Aplikasi ini merupakan form pendaftaran sederhana untuk sebuah event fiktif.
 
 ## Deskripsi & Fitur
@@ -26,3 +24,4 @@ Aplikasi ini mencakup implementasi dari beberapa konsep dasar PHP, yaitu:
 **Contoh Pesan Error Validasi**
 *(Letakkan screenshot tampilan saat ada error validasi di sini)*
 ![Tampilan Error]<img width="1920" height="1080" alt="Screenshot 2025-09-26 104356" src="https://github.com/user-attachments/assets/6b30a3ee-1a37-4167-8d10-bc88509ef997" />
+
