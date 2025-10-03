@@ -81,11 +81,13 @@
 1. Buat route dan views baru
 
     ```
+    --- UNTUK ROUTE ---
     Route::get('/kontak', function () {
     return view('kontak');
     });
 
-    ```
+
+    --- UNTUK VIEWS ---
      <!DOCTYPE html>
      <html>
      <head>
@@ -101,7 +103,10 @@
           <a href="/tentang-kami">Lihat Halaman Tentang Kami</a>
     </body>
     </html>
+
+2. Buka http://127.0.0.1:8000/kontak.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce54956e-3f14-4692-ae7b-43251d1336d9" />
+
 
 
 
