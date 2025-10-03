@@ -17,7 +17,7 @@
 
 
 <h3>3. Install project laravel "LaraPress"</h3>
-1. Buka terminal, arahnya ke folder root XAMPP. Untuk XAMPP, C:\xampp\htdocs. untuk di linux /opt/lampp/htdocs
+ 1. Buka terminal, arahnya ke folder root XAMPP. Untuk XAMPP, C:\xampp\htdocs. untuk di linux /opt/lampp/htdocs
 
 2. Jalankan perintah berikut, untuk menginstall project laravel "LaraPress", "composer create-project laravel/laravel LaraPress"
 
@@ -45,7 +45,6 @@
         <p>Ini adalah halaman utama dari aplikasi blog kita.</p>
     </body>
     </html>
-
 9. Tampilan utama laravel akan berubah.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7825b413-2a44-4104-8366-689c42f72876" />
@@ -55,7 +54,6 @@
     ```
     Route::get('/tentang-kami', function () {
     return view('about'); // Kita akan menampilkan view bernama 'about'
-
 11. Tambah view baru, sama seperti di atas, ada di resources/views, buat file baru, about.blade.php, isinya ini
     ```
     <!DOCTYPE html>
@@ -68,7 +66,6 @@
         <p>LaraPress adalah sebuah proyek blog sederhana yang dibuat untuk mempelajari dasar-dasar framework Laravel 12.</p>
     </body>
     </html>
-
 12. Buka http://127.0.0.1:8000/tentang-kami. maka tampilan akan berubah menjadi Tentang LaraPress
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2dccb8ce-9a68-4cf0-a7fe-d3becfc1a93f" />
 
@@ -76,11 +73,9 @@
     ```
     - Di welcome.blade.php, tambahkan di bawah paragraf: <a href="/tentang-kami">Lihat Halaman Tentang Kami</a>
     - Di about.blade.php, tambahkan di bawah paragraf: <a href="/">Kembali ke Halaman Utama</a>
-
 <h3>4. Tugas membuat halaman statis kontak</h3>
 1. Buat route dan views baru
 
-    ```
     --- UNTUK ROUTE ---
     Route::get('/kontak', function () {
     return view('kontak');
@@ -106,6 +101,7 @@
 
 2. Buka http://127.0.0.1:8000/kontak.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce54956e-3f14-4692-ae7b-43251d1336d9" />
+
 
 
 
