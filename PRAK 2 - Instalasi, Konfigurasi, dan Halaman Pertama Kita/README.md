@@ -5,6 +5,9 @@
 <h3>1. Instalasi Laravel</h3>
 1. Install laravel sesuai dengan os masing-masing.
 
+
+<img width="616" height="125" alt="image" src="https://github.com/user-attachments/assets/bb7ac2ad-7269-4ce4-a296-4a3addd0469c" />
+
 2. "composer global require laravel/installer"
 
 <h3>2. Install XAMPP</h3>
@@ -98,6 +101,7 @@
 
 2. Buka http://127.0.0.1:8000/kontak.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce54956e-3f14-4692-ae7b-43251d1336d9" />
+
 
 
 
