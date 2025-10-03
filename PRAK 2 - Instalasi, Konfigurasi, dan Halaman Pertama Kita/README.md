@@ -5,7 +5,9 @@
 <h3>1. Instalasi Laravel</h3>
 1. Install laravel sesuai dengan os masing-masing.
 
+
 <img width="616" height="125" alt="image" src="https://github.com/user-attachments/assets/bb7ac2ad-7269-4ce4-a296-4a3addd0469c" />
+
 
 2. "composer global require laravel/installer"
 
@@ -35,7 +37,7 @@
 
 8. Masuk ke resources/views/welcome.blade.php, kemudian ubah HTML nya seperi berikut
 
-    <!DOCTYPE html>
+    ```<!DOCTYPE html>
     <html>
     <head>
         <title>Selamat Datang di LaraPress</title>
@@ -53,12 +55,12 @@
 
 10. Tambahkan halaman statis baru, buat route baru di routes/web.php, tambah kan di paling bawah
 
-    Route::get('/tentang-kami', function () {
+    ```Route::get('/tentang-kami', function () {
     return view('about'); // Kita akan menampilkan view bernama 'about'
 
 11. Tambah view baru, sama seperti di atas, ada di resources/views, buat file baru, about.blade.php, isinya ini
 
-    <!DOCTYPE html>
+    ```<!DOCTYPE html>
     <html>
     <head>
         <title>Tentang Kami - LaraPress</title>
@@ -73,7 +75,7 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2dccb8ce-9a68-4cf0-a7fe-d3becfc1a93f" />
 
 13. Tambahkan link navigasi agar bisa pindah halaman.
-    - Di welcome.blade.php, tambahkan di bawah paragraf: <a href="/tentang-kami">Lihat Halaman Tentang Kami</a>
+    ```- Di welcome.blade.php, tambahkan di bawah paragraf: <a href="/tentang-kami">Lihat Halaman Tentang Kami</a>
     - Di about.blade.php, tambahkan di bawah paragraf: <a href="/">Kembali ke Halaman Utama</a>
 
 <h3>4. Tugas membuat halaman statis kontak</h3>
@@ -83,7 +85,7 @@
     return view('kontak');
 });
 
-  <!DOCTYPE html>
+  ```<!DOCTYPE html>
   <html>
   <head>
       <title>Kontak Kami - LaraPress</title>
@@ -98,5 +100,4 @@
       <a href="/tentang-kami">Lihat Halaman Tentang Kami</a>
   </body>
   </html>
-
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce54956e-3f14-4692-ae7b-43251d1336d9" />
